@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				network: {
+					primary: 'hsl(var(--network-primary))',
+					secondary: 'hsl(var(--network-secondary))',
+					success: 'hsl(var(--network-success))',
+					warning: 'hsl(var(--network-warning))',
+					danger: 'hsl(var(--network-danger))',
+					surface: 'hsl(var(--network-surface))',
+					'surface-elevated': 'hsl(var(--network-surface-elevated))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +97,21 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-network': 'pulse 1.5s ease-in-out infinite',
+				'fade-in': 'fadeIn 0.5s ease-out',
+				'slide-up': 'slideUp 0.3s ease-out'
+			},
+			fontFamily: {
+				mono: ['JetBrains Mono', 'Fira Code', 'Monaco', 'monospace']
+			},
+			backgroundImage: {
+				'gradient-network': 'var(--gradient-network)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'network': 'var(--shadow-network)',
+				'elevated': 'var(--shadow-elevated)'
 			}
 		}
 	},
